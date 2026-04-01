@@ -4,18 +4,23 @@ public class Map {
    
    public int getNumRows() {
       // TODO: return the number of rows in roomGrid
+      roomGrid.length
+      return ;
    }
    public int getNumCols() {
       // TODO: return the number of columns in roomGrid
-   
+      roomGrid[0].length
+      return ;
    }
 
    public Map(int rows, int columns) {
+      int Map = new int[x][y]
       // TODO: initalize the Map by creating the 2D array
       // and then calling populateMap which will build all of the Rooms
    }
    public void populateMap() {
       // TODO: populate the map with a bunch of Rooms with random numbers of monsters and items
+      
       // Hint: Use nested for loops to fill every row and column
       // Another Hint: use the Room constructor to populate the Monsters and Items
    }
